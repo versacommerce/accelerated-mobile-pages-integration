@@ -1,5 +1,5 @@
 [<img src="versacommerce.png" width="250px" align="right" alt="VersaCommerce.de">](https://www.versacommerce.de/?utm_source=github)
-[<img src="amp.png" width="250px" align="right" alt="amp.dev">](https://www.amp.dev/?utm_source=www.versacommerce.de)
+[<img src="amp.png" width="80px" align="right" alt="amp.dev">](https://www.amp.dev/?utm_source=www.versacommerce.de)
 
 [VersaCommerce] [integration] [javascript] [AcceleratedMobilePages]
 
