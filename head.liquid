@@ -1,0 +1,12 @@
+{% assign scheme_less_shop_url = shop.url|force_scheme:'blank' %}
+{% if template contains 'index' %}
+<link rel="amphtml" href="{{ scheme_less_shop_url }}/index.amp">
+{% elsif template contains 'collection' %}
+<link rel="amphtml" href="{{ scheme_less_shop_url }}{{ object.url }}.amp">
+{% elsif template contains 'product' %}
+<link rel="amphtml" href="{{ scheme_less_shop_url }}{{ object.url }}.amp">
+{% elsif template contains 'blog' %}
+<link rel="amphtml" href="{{ scheme_less_shop_url }}{{ object.url }}.amp">
+{% elsif template contains 'article' %}
+<link rel="amphtml" href="{{ scheme_less_shop_url }}{{ object.url }}.amp">
+{% endif %}
